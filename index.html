@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personal Webpage</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            padding-left: 1%;
+        }
+
+        body::before {
+            content: '';
+            position: fixed; 
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            opacity: 0.3;
+            z-index: -1;
+        }
+
+        img {
+            float: left;
+            margin-right: 10px; 
+            width: 30%; 
+        }
+
+        .description {
+            float: left; 
+            width: 20%;
+            border: 2px solid #cb77a6; 
+            background-color: rgba(255, 255, 255, 0.5); 
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .clear {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <h1>Anamol K.</h1>
+    <h2>Computer Science</h2>
+    <p>IP Address: 108.7.198.178</p>
+    <p>Grew up in: Srijananagar, Nepal</p>
+    <img src="Bhaktapur.jpg" alt="Favorite Place">
+    <div class="description">
+        <p>This place is a temple in Bhaktapur, Nepal. It reminds me of my childhood and family. There is nothing anywhere else that quite captures the same feeling.</p>
+    </div>
+    <div class="clear"></div>
+    <p><a href="https://www.momoncurryma.com/" target="_blank">My Favorite Restaurant, Momo n Curry!</a></p>
+    <p>Something unexpected about me: I want to be a music artist in the future.</p>
+</body>
+</html>
